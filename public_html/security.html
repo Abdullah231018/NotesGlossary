@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>NotesGlossary</title>
+
+    <link rel="icon" href="assets/images/Icon.png" type="image/icon type">
+
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+
+  </head>
+
+  <body>
+
+    <!-- Top bar -->
+      <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="index.php">
+        <img src="assets/images/Icon.png" style= "width: 70px; height: 70px; float: left;" >
+      </a>
+      <a href="index.php"><em>NotesGlossary</em></a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#section1">Home</a></li>
+        <li class="has-submenu"><a href="index.php">About Us</a>
+          <ul class="sub-menu">
+            <li><a href="index.php">Creator</a></li>
+            <li><a href="index.php">Testimonials</a></li>
+            <li><a href="index.php">FAQ</a></li>
+          </ul>
+        </li>
+        <li><a href="index.php">Modules</a></li>
+        <li><a href="login.php">Login/Sign up </a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">           
+                <h4 class="text-center"> <b>Computer Science (0478) </b></h4>
+                <h6> IGCSE </h6>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item"><a target="_self" href="cs.html" class="tm-nav-link">
+                        Data representation
+                    </a></li>
+                    <li class="tm-nav-item"><a target="_self" href="comm.html" class="tm-nav-link">
+                        Communication & internet technologies
+                    </a></li>
+                    <li class="tm-nav-item "><a target="_self" href="hardware.html" class="tm-nav-link">
+                        Hardware & software
+                    </a></li>
+                    <li class="tm-nav-item active"><a target="_self" href="security.html" class="tm-nav-link">
+                        Security
+                    </a></li>
+                    <li class="tm-nav-item"><a target="_self" href="ethics.html" class="tm-nav-link">
+                        Ethics
+                    </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+      <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            
+            <div class="row tm-row">
+                <div class="col-md-auto">
+                  <div class="tm-pt-30">
+                        <h1>Security</h1>
+
+                        <p>Data can be vulnerable. We have to keep our data safe from accidental damage, corruption, human errors, unauthorised viewing, deletion and theft.</p>
+                        <hr>
+
+                        <h2>Firewalls & proxy servers</h2>
+                        <h3>Firewall</h3>
+
+                        <p>A firewall sits between the user’s computer and an external network (internet) and filter information in and out of the computer. <br>Tasks carried out by firewall: </p>
+                        <dl>
+                            <li>Examining traffic.</li>
+                            <li>Checks criteria of the data coming in and going out.</li>
+                            <li>Firewall blocks any data that fails to meet the criteria.</li>
+                            <li>Firewall keeps a blacklist of IP adresses to avoid reoccurences of an attack.</li>
+                        </dl>
+                        <h3>Proxy servers</h3>
+                        <p>Proxy server sits between the user and a web server.<br>Tasks carried out by proxy servers:</p>
+                        <dl>
+                            <li>Allows internet traffic tp be filtered</li>
+                            <li>It uses cache to speed up accessing information from websites</li>
+                            <li>Keeps the user's IP address a secret</li>
+                        </dl>
+                        <hr>
+                        <h2>Security protocols</h2>
+                        <h3>Secure socket layer (SSL)</h3>
+                        <p> This security protocol allows data to be sent and received securely over the internet. When a user logs onto a website, SSL encrypts the data. <br> When user wants to access a secure website: </p>
+                        <dl>
+                            <li>User’s web browser sends a message so it can connect with required website which is secured by SSL.</li>
+                            <li>Web browser requests that the web server identifies itself.</li>
+                            <li>Web server responds by sending a copy of its SSL certificate.</li>
+                            <li>Web browser checks if certificate is authentic.</li>
+                            <li>Sends signal back to web browser.</li>
+                            <li>Starts to transmit data once connection is established.</li>
+                            <li>If not secure, browser will display an open padlock.</li>
+                        </dl>
+                        <h3>Transport layer security (TLS)</h3>
+                        <p>This security protocol ensures the privacy and safety of data between the devices of users communicating over the internet. It is designed to provide encryption, authentication and data integrity in a more effective way than SSL. </p>
+                        <hr>
+                        <h2>Encryption</h2>
+                        <p> Encryption is used to protect a user that's been hacked by making the hacked data useless. </p>
+                        <h3>Symmetric encryption</h3>
+                        <p> A secret key which can be a combination of characters. If this key is applied to a message, its contents is changed. One key is needed to encrypt a message and another key is needed to decrypt a message. Increasing the length of the key increases the strength of the encryption. </p>
+                        <h3>Plain text and cypher text</h3>
+                        <p>Plain text is the normal representation of data before it goes through an encryption algorithm. Cypher text is the output from an encryption algorithm.</p>
+                        <h3>Authentication</h3>
+                        <p>Authentication is used to verify that data come from a trusted source. Works with encryption to strengthen internet security.<br> Passowrds: usually a user id/name and password are used to log on to systems. <br>Digital Signatures: public key encryption; ensure an electronic document is authentic. <br>Biometrics: relies on the unique characteristics of human beings (fingerprint scans, retina scans).</p>
+                        <hr>
+
+                        <h2>Phishing, pharming & DOS</h2>
+                        <h3>Phishing</h3>
+                        <p>Scammer sends out a legitimate-looking email; as soon as recipient clicks on link, user is sent to a fake website.</p>
+                        <p>Effect: The scammer is able to gain access to personal data and blackmail/scam a victim.<br> To prevent risk: Many ISPs filter out phishing emails and user is always encouraged to prevent from openning suspicious email.</p>
+                        <h3>Pharming</h3>
+                        <p>With the help of a malicious code either by installing it on the user's hard drive or web server the attacker can redirect the victim to a fake website.</p>
+                        <p>Effect: The scammer is able to gain access to personal data and blackmail/scam a victim. <br> To prevent risk: Anti-spyware softwares can indentify and remove pharming code and user is always encouraged to prevent from going to suspicious/unsecure websites.</p>
+                        <h3>Denial of Service Attacks (DoS)</h3>
+                        <p>DoS attacks prevent users from temporarily accessing a part of a network. It can kick the user of off their online applications, website or email etc.</p>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script>
+
+    </script>
+  </body>
+  </html>

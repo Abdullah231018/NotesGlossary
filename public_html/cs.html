@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>IGCSE Computer science</title>
+
+    <link rel="icon" href="assets/images/Icon.png" type="image/icon type">
+
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+
+  </head>
+
+  <body>
+
+    <!-- Top bar -->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="index.php">
+        <img src="assets/images/Icon.png" style= "width: 70px; height: 70px; float: left;" >
+      </a>
+      <a target="_self" href="index.php"><em>NotesGlossary</em></a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li> <a target="_self" href="index.php">Home</a></li>
+        <li class="has-submenu"><a target="_self" href="index">About Us</a>
+          <ul class="sub-menu">
+            <li><a target="_self" href="index.php">Creator</a></li>
+            <li><a target="_self" href="index.php">Testimonials</a></li>
+            <li><a target="_self" href="index.php">FAQ</a></li>
+          </ul>
+        </li>
+        <li><a target="_self" href="index.php">Modules</a></li>
+        <li><a target="_self" href="login.php">Login/Sign up </a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">           
+                <h4 class="text-center"> <b>Computer Science (0478) </b></h4>
+                <h6> IGCSE </h6>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item active"><a target="_self" href="cs.html" class="tm-nav-link">
+                        Data representation
+                    </a></li>
+                    <li class="tm-nav-item"><a target="_self" href="comm.html" class="tm-nav-link">
+                        Communication & internet technologies
+                    </a></li>
+                    <li class="tm-nav-item "><a target="_self" href="hardware.html" class="tm-nav-link">
+                        Hardware & software
+                    </a></li>
+                    <li class="tm-nav-item"><a target="_self" href="security.html" class="tm-nav-link">
+                        Security
+                    </a></li>
+                    <li class="tm-nav-item"><a target="_self" href="ethics.html" class="tm-nav-link">
+                        Ethics
+                    </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+      <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            
+            <div class="row tm-row">
+                <div class="col-md-auto">
+                  <div class="tm-pt-30">
+                        <h1>Data representation</h1>
+                        <h2>Binary systems</h2>
+                  
+                        <p> The binary system is based on the number 2. It is made up of 1s and 0s.</p>
+                        <h3> Converting Binary to Denary </h3>
+                        <p>To calculate a binary number you will have to place it in columns of base 2 numbers. You will be required to add all the base 2 numbers to finish the conversion. <br> For example: Let's convert 11010100 to Denary.</p>
+                        <table>
+                          <tr>
+                            <th>128</th>
+                            <th>64</th>
+                            <th>32</th>
+                            <th>16</th>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                          </tr>
+                        </table>
+                        <p style="text-align: center;"> 128 + 64 + 16 + 4 = 212</p>
+
+                        <h3> Converting Denary to Binary</h3>
+                        <p>Now we will look at how to do the opposite. To calculate denary to binary we will have to set up the columns of base 2 numbers again. We are required to get the Denary value from the column of base 2 numbers. <br>For example: Let's convert 150 to Binary </p>
+
+                        <table>
+                          <tr>
+                            <th>128</th>
+                            <th>64</th>
+                            <th>32</th>
+                            <th>16</th>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                          </tr>
+                        </table>
+                        <p> To get 150 we will require a 128, then we are left with 22. hence, we will skip  64 and 32 as they are larger values. We will use 16 and we have a remaining of 6. Finally, a 4 and 2 will give us the 6 we need.</p>
+                        <p style="text-align: center;"> 128 + 16 + 4 + 2 = 150</p>
+                    <hr>
+
+                    <h2>Measuring Computer memory sizes</h2>
+                    <p> Binary digits are referred to as "Bit". 8 bits is called a "Byte". Byte is used to measure memory size.</p>
+
+                    <table>
+                          <tr>
+                            <th>Name of memory size</th>
+                            <th>No. of Bits</th>
+                            <th>Denary value</th>
+                          </tr>
+                          <tr>
+                            <td>1 kilobyte (1KB)</td>
+                            <td>2<sup>10</sup></td>
+                            <td>1,024 bytes</td>
+                          </tr>
+                          <tr>
+                            <td>1 megabyte (1MB)</td>
+                            <td>2<sup>20</sup></td>
+                            <td>1,048,576 bytes</td>
+                          </tr>
+                          <tr>
+                            <td>1 gigabyte (1GB)</td>
+                            <td>2<sup>30</sup></td>
+                            <td>1,073,741,824 bytes</td>
+                          </tr>
+                          <tr>
+                            <td>1 terabyte (1TB)</td>
+                            <td>2<sup>40</sup></td>
+                            <td>1,099,511,627,776 bytes</td>
+                          </tr>
+                          <tr>
+                            <td>1 petabyte (1PB)</td>
+                            <td>2<sup>50</sup></td>
+                            <td>1,125,899,906,842,624 bytes</td>
+                          </tr>
+                        </table>
+                        <p>If you are interested in Robotics this information will be key in the future.</p>
+
+                        <hr>
+
+                      <h2>Hexadecimal</h2>
+                      <p>It is a base 16 system. Number 0 - 9 and letters A - F are used to represent all the hexadecimal digits. 0 - 9 each have denary value of 0 - 9. A - F are the rest of the 6  digits from 10 - 15.</p>
+                      <h3>Converting Binary to Hexadecimal</h3>
+                      <p>To covnert Binary to Hexadecimal we will have to create two 4 bits.<br>For example: 11000101</p>
+                      <table>
+                          <tr>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                            <th>-</th>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                          </tr>
+                        </table>
+
+                        <p style="text-align:center;">The first section we get 12 which when converted to hexadecimal we get C. The second half we get 5. Hence, our hexadecimal value will be C5 </p>
+
+                      <h3>Converting Hexadecimal to Denary</h3>
+                      <p> To do this we will have to convert hexadecimal to binary first and then we convert our result to binary.<br>For example: we will convert 2B to Denary. First we convert Hex to Binary. <br>First step is to split the Hex (2 - B) = (2 - 11)</p>
+
+                      <table>
+                          <tr>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                            <th>-</th>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                          </tr>
+                          <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                          </tr>
+                        </table>
+                        <p>The binary we get is 00101011. Now we will have to convert our Binary to Denary. We go back to using the 8 bit  </p>
+
+                        <table>
+                          <tr>
+                            <th>128</th>
+                            <th>64</th>
+                            <th>32</th>
+                            <th>16</th>
+                            <th>8</th>
+                            <th>4</th>
+                            <th>2</th>
+                            <th>1</th>
+                          </tr>
+                          <tr>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                          </tr>
+                        </table>
+                        <p style="text-align:center;"> 32 + 8 + 2 + 1 = 43</p>
+
+                        <hr>
+
+                      <h2>Hexadecimal system</h2>
+                      <p>Hexadecimal is widely used in many different areas. It useed for defining colors in HTML, it is used for MAC adresses, it is used for developing new softwares etc. Hexadecimal is more widely used compared to its counter part Binary due to it being easier,faster and less error prone to write code in.</p>
+
+                      <h2>Error checking</h2>
+                      <p>There are four commons methods for error checking.</p>
+                      <h3>Parity checking</h3>
+                      <p>Parity checking is used to chefck whether data has been changed or corrupted following transmission from one device to another. 
+                      <h3>Automatic repeat request (ARQ)</h3>
+                      <p>ARQ uses acknowledgements and timeouts to achieve reliable data transmission.</p>
+                      <h3>Checksum</h3>
+                      <p>A checksum is a small sized block of data derived from another block of digital data for the purpose of detecting errors.</p>
+                      <h3>Echo check</h3>
+                      <p>Echo check determines the datas integrity by returning the data to the source and comparing it. It is a very unrealiable method.</p>
+
+                      <hr>
+
+                      <h2>Lossless and Lossy File Compression</h2>
+                      <h3>Lossless file compression</h3>
+                      <p>This method compressses the file by reconstructing data and when uncompressed it does not lose any data. <br> Examples of lossless compression: RAW, GZIP, BMP and PNG</p>
+                      <h3>Lossy file compression</h3>
+                      <p>This method compresses the file by eliminating unnecessary bits of data. It is not posible to retain the original file.<br> Examples of lossy compression: JPEG and MP3.</p>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script>
+
+    </script>
+  </body>
+</html>
